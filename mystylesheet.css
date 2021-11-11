@@ -75,16 +75,19 @@ scroll=normal*/
   .section{
     text-align: center;
     padding: 50px 80px;
+    font-family: "avenir", sans-serif;
   }
 
   .section-light{
     background-color:#ebe9dd;
-    color:#443b46
+    color:#443b46;
+    font-family: "avenir", sans-serif;
   }
 
   .section-dark{
     background-color:#a99679;
-    color:#443b46
+    color:#443b46;
+    font-family: "avenir", sans-serif;
   }
   
   .ptext{
@@ -96,6 +99,7 @@ scroll=normal*/
     font-size:27px;
     letter-spacing:3px;
     text-transform:uppercase;
+    font-family: "bebas neue", sans-serif;
   }
 
   .ptext .border{
@@ -112,4 +116,26 @@ scroll=normal*/
     .pimg1, .pimg2, .pimg3{
       background-attachment: scroll;
     }
+  }
+
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #443b46;
+    color: #f2f2f2;
+    font-size: 27px;
+    font-family: "bebas neue", sans-serif;
+    letter-spacing: 3px;
+    padding: 20px 60px;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+    text-align: center;
+  }
+
+  .container .btn:hover{
+    background-color:#a99679;
   }
