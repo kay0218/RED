@@ -88,7 +88,16 @@ scroll=normal*/
     background-color:#a99679;
     color:#443b46;
     font-family: "avenir", sans-serif;
+    
   }
+
+  .bebas{
+    color:#443b46;
+    font-family: "bebas neue", sans-serif;
+    font-size:27px;
+    letter-spacing:3px;
+  }
+
   
   .ptext{
     position:absolute;
