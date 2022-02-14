@@ -46,7 +46,8 @@
   /* Content */
   .content {
     background-color: white;
-    padding: 40px;
+    padding: 10px;
+    width: fit-content;
   }
   
   /* Responsive layout - makes a two column-layout instead of four columns */
@@ -61,4 +62,31 @@
     .column {
       width: 100%;
     }
+  }
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    font-family: bebas neue, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: URL(https://wallpapercave.com/wp/wp7200663.jpg);
+    
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
