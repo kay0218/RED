@@ -28,12 +28,14 @@ body {background-color: #ebe9dd;}
         padding: 14px 16px;
      text-decoration: none;
      font-family: bebas neue, sans-serif;
+     font-size:27px;
   }
   
   /* Change color on hover */
   .topnav a:hover {
     background-color: #ebe9dd;
     color: #ae1e4c;
+    font-size:27px;
   }
 
   body, html {
