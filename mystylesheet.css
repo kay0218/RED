@@ -73,6 +73,11 @@ scroll=normal*/
     background-image: url(https://taylorpictures.net/albums/photoshoots/2012/red/029.jpg);
     min-height: 400px;
   }
+
+  .pimg4{
+    background-image: url(https://i.pinimg.com/originals/51/64/2f/51642f3582def9cc68a15043e5b5d06d.jpg);
+    min-height: 400px;
+  }
   
   .section{
     text-align: center;
@@ -124,7 +129,7 @@ scroll=normal*/
   }
 
   @media(max-width:568px){
-    .pimg1, .pimg2, .pimg3{
+    .pimg1, .pimg2, .pimg3, .pimg4{
       background-attachment: scroll;
     }
   }
