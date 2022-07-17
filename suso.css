@@ -6,7 +6,7 @@
     background-color: #ebe9dd;
     color: #a02b48;
     padding: 20px;
-    font-family: "bebas neue",sans-serif;
+    font-family: 'Bebas Neue',sans-serif;
   }
   
   /* Center website */
@@ -76,7 +76,7 @@
   body, html {
     height: 100%;
     margin: 0px;
-    font-family: bebas neue, sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
   }
   
   * {

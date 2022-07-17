@@ -37,7 +37,7 @@ html {
     content: "";
     clear: both;
     display: table;
-    font-family: "bebas neue", sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
   }
   
   .title {
@@ -54,7 +54,7 @@ html {
     text-align: center;
     cursor: pointer;
     width: 100%;
-    font-family:"bebas neue", sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
   }
   
   .button:hover {
