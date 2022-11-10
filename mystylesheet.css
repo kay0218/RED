@@ -54,11 +54,22 @@ body {background-color: #ebe9dd;}
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
 /*fixed=parallax 
 scroll=normal*/
     background-attachment: fixed;
   }
+
+  .pimg5, .pimg6, .pimg7{
+    position:relative;
+    opacity:0.85;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+/*fixed=parallax 
+scroll=normal*/
+    background-attachment: fixed;
+  }
+
   .pimg1{
     background-image: url(https://taylorpictures.net/albums/photoshoots/2012/red/041.jpg);
     min-height: 100%;
@@ -78,6 +89,22 @@ scroll=normal*/
     background-image: url(https://i.pinimg.com/originals/51/64/2f/51642f3582def9cc68a15043e5b5d06d.jpg);
     min-height: 400px;
   }
+
+  .pimg5{
+    background-image: url(https://www.euphoriazine.com/wp-content/uploads/2021/11/255271713_127540189666924_3454544847394066810_n-e1636914405144.jpg);
+    min-height: 100%;
+  }
+
+  .pimg6{
+    background-image: url(https://assets.rebelmouse.io/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNzk1NzAzMy9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY4MTY2MTQ4NH0.9iGfYHslo-KqoqWq4MLYVCbkTZlvGvwymSQTDuzQNzM/img.jpg?width=1200&height=800&quality=85&coordinates=0%2C98%2C0%2C718);
+    min-height: 400px;
+  }
+
+  .pimg7{
+    background-image: url(https://studybreaks.com/wp-content/uploads/2021/12/Taylor-Swift-PSU.jpeg?ezimgfmt=rs:0x0/rscb6/ngcb6/notWebP);
+    min-height: 400px;
+  }
+
   
   .section{
     text-align: center;
@@ -129,7 +156,7 @@ scroll=normal*/
   }
 
   @media(max-width:568px){
-    .pimg1, .pimg2, .pimg3, .pimg4{
+    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7{
       background-attachment: scroll;
     }
   }
