@@ -181,7 +181,7 @@
     display: none;
   }
 
-  body {background-color: #ebe9dd;}
+  body {background-color: #c1ad9a;}
 
 /* Style the header */
 .Header {
@@ -196,7 +196,7 @@
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #a99679;
+    background-color: #AB7554;
   }
 .topnav {
     text-align: center;
@@ -216,7 +216,7 @@
   
   /* Change color on hover */
   .topnav a:hover {
-    background-color: #ebe9dd;
+    background-color: #c1ad9a;
     color: #ae1e4c;
     font-size:27px;
   }
@@ -270,13 +270,13 @@ scroll=normal*/
   }
 
   .section-light{
-    background-color:#ebe9dd;
+    background-color:#c1ad9a;
     color:#443b46;
     font-family: "avenir", sans-serif;
   }
 
   .section-dark{
-    background-color:#a99679;
+    background-color:#c48660;
     color:#443b46;
     font-family: "avenir", sans-serif;
     
