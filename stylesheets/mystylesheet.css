@@ -1,4 +1,187 @@
-body {background-color: #ebe9dd;}
+@media (prefers-color-scheme: light) {
+
+  .dark-mode {
+    display: none;
+  }
+
+    body {background-color: #ebe9dd;}
+
+  /* Style the header */
+  .Header {
+      color: #ae1e4c;
+      text-align: center;
+      font-family: 'Bebas Neue', sans-serif;
+      font-weight: 10;
+      font-size: 60px;
+      margin-bottom: 2px;
+      }
+
+  /* Style the top navigation bar */
+  .topnav {
+      overflow: hidden;
+      background-color: #a99679;
+    }
+  .topnav {
+      text-align: center;
+      letter-spacing: 3px;
+  }
+    
+    /* Style the topnav links */
+    .topnav a { 
+      display: inline-block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+      text-decoration: none;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size:27px;
+    }
+    
+    /* Change color on hover */
+    .topnav a:hover {
+      background-color: #ebe9dd;
+      color: #ae1e4c;
+      font-size:27px;
+    }
+
+    body, html {
+      height:100%;
+      margin:0;
+      font-size:16px;
+      font-family:'Bebas Neue',sans-serif;
+      font-weight:10px;
+      line-height:1.8em;
+      color:#ae1e4c;
+    }
+    
+    .pimg1, .pimg2, .pimg3{
+      position:relative;
+      opacity:0.70;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+  /*fixed=parallax 
+  scroll=normal*/
+      background-attachment: fixed;
+    }
+
+    .pimg1{
+      background-image: url(https://taylorpictures.net/albums/photoshoots/2012/red/041.jpg);
+      min-height: 100%;
+    }
+
+    .pimg2{
+      background-image: url(https://taylorpictures.net/albums/photoshoots/2012/red/038.jpg);
+      min-height: 400px;
+    }
+
+    .pimg3{
+      background-image: url(https://taylorpictures.net/albums/photoshoots/2012/red/029.jpg);
+      min-height: 400px;
+    }
+
+    .pimg4{
+      background-image: url(https://i.pinimg.com/originals/51/64/2f/51642f3582def9cc68a15043e5b5d06d.jpg);
+      min-height: 400px;
+    }
+
+    
+    .section{
+      text-align: center;
+      padding: 50px 80px;
+      font-family: "avenir", sans-serif;
+    }
+
+    .section-light{
+      background-color:#ebe9dd;
+      color:#443b46;
+      font-family: "avenir", sans-serif;
+    }
+
+    .section-dark{
+      background-color:#a99679;
+      color:#443b46;
+      font-family: "avenir", sans-serif;
+      
+    }
+
+    .bebas{
+      color:#443b46;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size:27px;
+      letter-spacing:3px;
+    }
+
+    
+    .ptext{
+      position:absolute;
+      top:50%;
+      width:100%;
+      text-align:center;
+      color:#f2f2f2;
+      font-size:27px;
+      letter-spacing:3px;
+      text-transform:uppercase;
+      font-family: 'Bebas Neue', sans-serif;
+    }
+
+    .ptext .border{
+      background-color:#443b46;
+      color:#f2f2f2;
+      padding:20px;
+    }
+
+    .ptext .border.trans{
+      background-color:transparent;
+    }
+
+    @media(max-width:568px){
+      .pimg1, .pimg2, .pimg3, .pimg4 {
+        background-attachment: scroll;
+      }
+    }
+
+    .container .btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      background-color: #443b46;
+      color: #f2f2f2;
+      font-size: 27px;
+      font-family: 'Bebas Neue', sans-serif;
+      letter-spacing: 3px;
+      padding: 20px 60px;
+      border: none;
+      cursor: pointer;
+      border-radius: 0px;
+      text-align: center;
+    }
+
+    .container .btn:hover{
+      background-color:#a99679;
+    }
+
+    /* styling links */
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:hover {
+    color: #ae1e4c;
+    cursor: pointer;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+
+  .light-mode {
+    display: none;
+  }
+
+  body {background-color: #ebe9dd;}
 
 /* Style the header */
 .Header {
@@ -22,13 +205,13 @@ body {background-color: #ebe9dd;}
   
   /* Style the topnav links */
   .topnav a { 
-     display: inline-block;
+    display: inline-block;
         color: #f2f2f2;
         text-align: center;
         padding: 14px 16px;
-     text-decoration: none;
-     font-family: 'Bebas Neue', sans-serif;
-     font-size:27px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:27px;
   }
   
   /* Change color on hover */
@@ -59,48 +242,22 @@ scroll=normal*/
     background-attachment: fixed;
   }
 
-  .pimg5, .pimg6, .pimg7{
-    position:relative;
-    opacity:0.85;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-/*fixed=parallax 
-scroll=normal*/
-    background-attachment: fixed;
-  }
-
-  .pimg1{
-    background-image: url(https://taylorpictures.net/albums/photoshoots/2012/red/041.jpg);
-    min-height: 100%;
-  }
-
-  .pimg2{
-    background-image: url(https://taylorpictures.net/albums/photoshoots/2012/red/038.jpg);
-    min-height: 400px;
-  }
-
-  .pimg3{
-    background-image: url(https://taylorpictures.net/albums/photoshoots/2012/red/029.jpg);
-    min-height: 400px;
-  }
-
   .pimg4{
     background-image: url(https://i.pinimg.com/originals/51/64/2f/51642f3582def9cc68a15043e5b5d06d.jpg);
     min-height: 400px;
   }
 
-  .pimg5{
+  .pimg1{
     background-image: url(https://www.euphoriazine.com/wp-content/uploads/2021/11/255271713_127540189666924_3454544847394066810_n-e1636914405144.jpg);
     min-height: 100%;
   }
 
-  .pimg6{
+  .pimg2{
     background-image: url(https://assets.rebelmouse.io/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNzk1NzAzMy9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY4MTY2MTQ4NH0.9iGfYHslo-KqoqWq4MLYVCbkTZlvGvwymSQTDuzQNzM/img.jpg?width=1200&height=800&quality=85&coordinates=0%2C98%2C0%2C718);
     min-height: 400px;
   }
 
-  .pimg7{
+  .pimg3{
     background-image: url(https://studybreaks.com/wp-content/uploads/2021/12/Taylor-Swift-PSU.jpeg?ezimgfmt=rs:0x0/rscb6/ngcb6/notWebP);
     min-height: 400px;
   }
@@ -156,7 +313,7 @@ scroll=normal*/
   }
 
   @media(max-width:568px){
-    .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7{
+    .pimg1, .pimg2, .pimg3, .pimg4 {
       background-attachment: scroll;
     }
   }
@@ -192,4 +349,5 @@ a {
 a:hover {
   color: #ae1e4c;
   cursor: pointer;
+}
 }

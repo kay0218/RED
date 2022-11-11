@@ -9,9 +9,9 @@ html {
   .column {
     float: left;
     width: 50%;
-    margin-top:-4px;
-    margin-bottom: 16px;
-    padding: 300px 70px;
+    margin-top:-250px;
+    /* margin-bottom: 16px; */
+    padding: 300px 70px 0px;
   }
   
   @media screen and (max-width: 650px) {
