@@ -1,0 +1,21 @@
+/* Define dark and light palettes with CSS variables */
+
+/* Light Mode */
+:root[color-mode="light"] {
+  --body: #ebe9dd;
+  --secondary: #ae1e4c;
+  --tertiary: #a99679;
+  --topnav: #a99679;
+  --links: #f2f2f2;
+  --text: #443b46;
+}
+
+/* Dark Mode */
+:root[color-mode="dark"] {
+  --body: #c1ad9a;
+  --secondary: #ae1e4c;
+  --tertiary:#c48660;
+  --topnav: #ab7554;
+  --links: #f2f2f2;
+  --text: #443b46;
+}
