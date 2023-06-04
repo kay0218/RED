@@ -5,5 +5,5 @@ Some elements have been added since - such as the dark and light mode media quer
 
 Currently no plans to change or add anything more. It will be left as is. 
 
-*Not responsive*
+*Not responsive* <br>
 *Not accessibility friendly*
